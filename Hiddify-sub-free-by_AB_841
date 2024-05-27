@@ -1,0 +1,41 @@
+//profile-title: HiDDIWARP+ by @AB_841
+//profile-update-interval: 24
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/🌱این ساب کاملا رایگان و توسط [ @AB_841 ] ساخته شده است 💜
+
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Warp-IR",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8473:8c66:8930:96de:f09d/128"
+      ],
+      "private_key": "ULQfQRWwstsurTv9ZPbj5jqM/9rcbP4cCcxR24Og33c=",
+      "server": "162.159.195.93",
+      "server_port": 2506,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [247,138,10],
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-Main",
+      "detour": "Warp-IR",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:864e:9681:aaf8:1e8c:53d0/128"
+      ],
+      "private_key": "0EJ6m/RyCgkkpJf7q763d/QFuUBvNawQ6oO/VVD/6U8=",
+      "server": "162.159.195.93",
+      "server_port": 2506,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [63,151,129],
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    }
+  ]
+}
